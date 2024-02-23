@@ -1,0 +1,69 @@
+.banner {
+  width: 100%;
+  background-color: var(--skyblue);
+  height: 26rem;
+  background-image: url('https://kalanidhithemes.com/live-preview/landing-page/start-consultancy/images/free-quote.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner__container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  gap: 12px;
+  height: 100%;
+  color: var(--white);
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.banner__containerElements {
+  display: flex;
+  align-items: center;
+   gap: 20px; 
+  flex-direction: column;
+  
+}
+
+
+.banner__containerElements i {
+  font-size: 42px;
+  width: 16rem;
+  text-align: center;
+
+}
+
+.banner__containerElements h4 {
+  font-size: 0.8rem;
+  width: 23rem;
+}
+
+.banner__containerElements hr {
+  width: 5rem;
+  height: 4px;
+  border: none;
+  background-color: var(--white);
+}
+
+.banner__containerElements p{
+    font-size: .9rem;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+@media screen and (min-width:992px){
+    .banner__containerElements i {
+        text-align: end;
+      
+      }
+      .banner{
+        height: 14rem;
+      }
+      .banner__containerElements{
+        gap: 42px;
+        flex-direction: row;
+      }
+    }
+    

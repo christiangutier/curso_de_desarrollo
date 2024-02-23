@@ -1,0 +1,94 @@
+.missions {
+  width: 100%;
+  background-image: url("https://kalanidhithemes.com/live-preview/landing-page/start-consultancy/images/statistic-bg-left.jpg");
+  height: 48rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #2e3f5a;
+}
+.missions__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1120px;
+  margin: 0 auto;
+  gap: 2rem;
+  padding: 6rem 0;
+}
+.missions__containerInformation {
+  width: 100%;
+  height: 100%;
+  color: var(--white);
+  text-align: center;
+}
+.outline {
+  border: 2px solid #9c9c9c86;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+.missions__containerInformation h3 {
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+
+.container__box {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 16rem;
+  border: 2px solid #9c9c9c86;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.box i{
+  color: skyblue;
+  font-size: 1.5rem;
+}
+.box hr{
+  height: 40px;
+  width: 2px;
+  background-color: #9c9c9c86;
+  border: none;
+}
+
+.box__tittle{
+    font-size: 2rem;
+    line-height: 26px;
+    text-align: start;
+}
+
+.box span{
+    font-size: .8rem;
+}
+
+
+@media screen and  (min-width:992px){
+    .missions{
+        height: 32rem;
+    }
+        
+    .missions__container{
+        flex-direction: row;
+    }
+    .missions__containerInformation{
+        width: 50%;
+
+    }
+    .box{
+        margin: 0;
+        padding: 0;
+    }
+    
+}
+

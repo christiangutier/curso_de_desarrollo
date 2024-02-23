@@ -1,0 +1,48 @@
+.subHeader {
+    background-color: var(--blue);
+    width: 100%;
+    height: 2.5rem;
+    display: none;
+    
+  }
+  
+  .subHeader__container {
+    width: 100%;
+    max-width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: var(--white);
+    align-items: center;
+    height: 2.5rem;
+    font-size: 0.95rem;
+  }
+  
+  .px-responsive {
+    padding: 0 2rem;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .px-responsive {
+      padding: 0;
+    }
+    .subHeader {
+      display: flex;
+      
+    }
+  }
+  
+  .subHeader__options {
+    display: flex;
+    gap: 60px;
+  }
+  
+  .subHeader__container i {
+    color: var(--skyblue);
+    margin-right: 10px;
+  }
+  
+  .subHeader__options a {
+    color: var(--white);
+  }
+  
