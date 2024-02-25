@@ -12,20 +12,6 @@
 .about__containerText {
   text-align: center;
 }
-.about__containerText h3 {
-  font-weight: 500;
-  font-size: 2.125rem;
-
-  font-weight: 500;
-}
-.about__line {
-  width: 5rem;
-  height: 0.3rem;
-  background-color: var(--gray);
-  border: none;
-  margin: 0 auto;
-  margin-bottom: 2.5rem;
-}
 
 .about__subtittle {
   font-size: 1.5rem;
