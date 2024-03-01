@@ -1,0 +1,108 @@
+.pricing {
+  width: 100%;
+  height: auto;
+}
+
+.pricing__container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 6rem 0;
+}
+
+.pricing__containerTittle h3 {
+  text-align: center;
+}
+
+.pricing__containerCards {
+  display: flex;
+  width: 100%;
+  margin-top: 6rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.pricing__card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: var(--white);
+  box-shadow: 0px 0px 18px 4px rgba(0, 0, 0, 0.1);
+  padding: 3rem 2rem;
+  position: relative;
+  height: 44rem;
+  width: 22.5rem;
+}
+
+.line__tittle {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 5.2rem;
+  background-color: #d7d7d7;
+  height: 2px;
+  border: none;
+}
+
+.pricing__paragraph {
+  margin-top: 8px;
+  font-size: 0.85rem;
+}
+
+.pricing__containerCost {
+  position: absolute;
+  width: 100%;
+  background-color: var(--blue);
+  left: 0;
+  top: 10.5rem;
+  display: flex;
+  color: var(--white);
+  padding: 1.5rem 0 1.5rem 2rem;
+  gap: 10px;
+}
+
+.pricing__containerCost h6 {
+  font-size: 3rem;
+  line-height: 40px;
+}
+.pricing__containerCost p {
+  display: flex;
+  align-items: end;
+}
+
+.pricing__list {
+  margin-top: 6rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 8rem;
+
+}
+.pricing__list li{
+ padding: 0 2rem;
+}
+.pricing__list li i{
+ margin-right: 10px;
+}
+
+.pricing__button{
+position: absolute;
+left: 30%;
+bottom: 2rem;
+}
+
+.bi-check{
+    color: #23af00;
+}
+
+.bi-x{
+    color: #b90000;
+}
+
+.bi::before, [class*=" bi-"]::before, [class^=bi-]::before {
+    font-weight: 800!important;
+}

@@ -2,7 +2,7 @@
   width: 100%;
   background-color: var(--skyblue);
   height: 26rem;
-  background-image: url('https://kalanidhithemes.com/live-preview/landing-page/start-consultancy/images/free-quote.png');
+  background-image: url("https://kalanidhithemes.com/live-preview/landing-page/start-consultancy/images/free-quote.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -16,23 +16,19 @@
   color: var(--white);
   flex-direction: column;
   justify-content: center;
-  
 }
 
 .banner__containerElements {
   display: flex;
   align-items: center;
-   gap: 20px; 
+  gap: 20px;
   flex-direction: column;
-  
 }
-
 
 .banner__containerElements i {
   font-size: 42px;
   width: 16rem;
   text-align: center;
-
 }
 
 .banner__containerElements h4 {
@@ -47,23 +43,91 @@
   background-color: var(--white);
 }
 
-.banner__containerElements p{
-    font-size: .9rem;
-    padding-left: 10px;
-    text-align: justify;
+.banner__containerElements p {
+  font-size: 0.9rem;
+  padding-left: 10px;
+  text-align: justify;
 }
 
-@media screen and (min-width:992px){
-    .banner__containerElements i {
-        text-align: end;
-      
-      }
-      .banner{
-        height: 14rem;
-      }
-      .banner__containerElements{
-        gap: 42px;
-        flex-direction: row;
-      }
-    }
+@media screen and (min-width: 992px) {
+  .banner__containerElements i {
+    text-align: end;
+  }
+  .banner {
+    height: 14rem;
+  }
+  .banner__containerElements {
+    gap: 42px;
+    flex-direction: row;
+  }
+}
+
+.bannerGallery {
+  margin-top: -160px;
+  width: 100%;
+  height: auto;
+}
+
+.bannerGallery__container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.bannerGallery__image {
+  width: 100%;
+  object-fit: cover;
+  height: 55px;
+}
+.bannerGallery__image img {
+  display: none;
+  width: 100%;
+  height: 55px;
+}
+
+.bannerGallery__information {
+  background-color: var(--skyblue);
+  padding: 4rem 0;
+}
+.bannerGallery__information h4 {
+  font-size: 2.5rem;
+  color: var(--white);
+  text-align: center;
+}
+
+.bannerGallery__containerText {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+  margin-top: 24px;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+}
+.bannerGallery__containerText a{
+ margin: 0 auto;
+}
+.bannerGallery__containerText p {
+  width: 100%;
+  color: var(--white);
+  font-size: 0.85rem;
+}
+
+@media screen and (min-width:992px) {
+  .bannerGallery__image img{
+    display: block;
+  }
+  .bannerGallery__containerText {
+    padding: 0 6rem;
+flex-direction: row;
+gap: 0;
+text-align: start;
+
+  }
+  .bannerGallery__containerText p {
+    width: 60%;
     
+  }
+ 
+}
